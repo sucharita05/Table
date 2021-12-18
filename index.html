@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Table</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <table>
+                <thead>
+                    <tr>
+                    <th>Name</th>
+                    <th>Qualification</th>
+                    <th>Place</th>
+                    </tr>
+                </thead>
+                <tbody id="tbodyid">
+                    <tr>
+                    <td>Swati Sucharita</td>
+                    <td>M.tech(Geotechnical Engineering)</td>
+                    <td>Bangalore</td>
+                    </tr>
+                </tbody>
+            </table>
+            <button class="button" 
+            type="submit" 
+            value="Submit"
+            onclick="clickButton()">Submit</button>
+        </div>
+
+        <script>
+            function clickButton(){
+                var btn = document.querySelector("#tbodyid").remove();
+                console.log(btn);
+            }
+                
+        </script>
+    </body>
+</html>

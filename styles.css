@@ -1,0 +1,31 @@
+body {
+    background-color: antiquewhite;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+table, th, td {
+    border:1px solid white;
+    border-collapse: collapse;
+    margin: auto; 
+  }
+
+  th, td {
+    background-color: #96D4D4;
+    padding: 15px;
+  }
+
+  .button {
+    margin: 10px auto;
+    display: grid;
+    justify-content: center;
+  }
+
+  .button:hover {
+      background-color: black;
+      color: white;
+  }
